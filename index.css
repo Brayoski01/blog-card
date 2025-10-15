@@ -3,7 +3,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "static";
+    font-family: "figtree";
 }
 
 .container{
@@ -46,7 +46,7 @@ body{
 }
 
 .blog-info h2{
-    font-family: "static";
+    font-family: "figtree";
     margin-bottom: -12px;
 }
 
@@ -70,3 +70,4 @@ body{
 .author p{
     font-weight: bold;
 }
+
