@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(230, 187, 69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "static";
+}
+
+.container{
+    width: 300px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 50px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+
+.image{
+    text-align: center;
+}
+
+.picture{
+    width: 90%;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.blog-info{
+    width: 95%;
+    margin-left: 15px;
+}
+.tag{
+    display: inline-block;
+    background-color: rgb(230, 187, 69);
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: -12px;
+    border-radius: 4px;
+}
+
+.date{
+    color: rgb(39, 39, 39);
+    margin-bottom: -10px;
+}
+
+.blog-info h2{
+    font-family: "static";
+    margin-bottom: -12px;
+}
+
+.description{
+    color: rgb(143, 140, 140);
+}
+
+
+.author{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.author img{
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+.author p{
+    font-weight: bold;
+}
